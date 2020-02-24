@@ -1,0 +1,486 @@
+
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.mainWrapper {
+    display: flex;
+    flex-direction: column;
+    
+ }
+ .blok1 {
+     display: flex;
+     flex-direction: column;
+     background: linear-gradient(0deg, rgba(64, 65, 73, 0.3), rgba(64, 65, 73, 0.3)), url(../image/brige.svg);
+     height: 740px;
+     background-size: 100%;
+     text-align: center;
+     
+ }
+ .top {
+     display: flex;
+     justify-content: space-between;
+     padding: 30px 450px 112px;
+ }
+ 
+ .texth1 {
+     font-family: Oswald;
+     font-weight: 500;
+     font-size: 64px;
+     line-height: 95px;
+     width: 740px;
+     margin-left: 595px;
+     margin-bottom: 0px;
+     color: white;
+     
+ }
+ .textp {
+     font-family: Oswald;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 18px;
+     line-height: 27px;
+     width: 740px;
+     margin-left: 595px;
+     margin-top: 10px;
+     color: white;
+     text-transform: uppercase;
+     text-align: center;
+ 
+ }
+ .blok2 {
+     position: absolute;
+     width: 1110px;
+     height: 300px;
+     left: 450px;
+     top: 590px;
+
+ }
+ .itemoll {
+    position: absolute;
+    width: 900px;
+    height: 300px;
+    top: 30px;
+    left: 100px;
+}
+ .blok3 {
+     display: flex;
+     max-width: 1100px;
+     margin-top: 60px;
+     margin-left: 450px;
+     justify-content: space-between;
+}
+.image{
+    width: 350px;
+    height: 380px;
+}
+h2 {
+width: 506px;
+height: 43px;
+margin-top: 300px;
+margin-left: 750px;
+font-family: Oswald;
+font-weight: 500;
+font-size: 36px;
+line-height: 53px;
+text-align: center;
+text-transform: uppercase;
+}
+h3 {
+width: 142px;
+height: 29px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+color: #404149;
+}
+p {
+width: 350px;
+height: 83px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #999999;
+text-align: left;
+}
+.strip {
+width: 55px;
+height: 6px;
+padding-right: 300px;
+
+
+}
+.blok4 {
+display: flex;
+width: 2023px;
+height: 181px;
+background: #F7654A;
+margin-top: 300px;
+text-align: left;
+
+
+}
+.textblok4 {
+width: 537px;
+height: 57px;
+font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 71px;
+letter-spacing: 0.02em;
+margin-bottom: 0px;
+color: #FFFFFF;
+margin-left: 440px;
+}
+.textpblok4 {
+width: 562px;
+height: 29px;
+font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+margin-top: 20px;
+margin-left: 440px;
+}
+.button {
+  margin-left: 350px;  
+}
+.blok5 {
+    display: flex;
+    flex-direction: column;
+
+}
+.blok51 {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 400px;
+    
+}
+.blok52 {
+    display: flex;
+    margin-left: 400px;
+}
+.blok5image {
+width: 350px;
+height: 250px;
+background: #F7F7F7;
+margin: 20px;
+}
+.building {
+    margin-top: 60px;
+}
+.pblok5 {
+width: 172px;
+height: 62px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 31px;
+letter-spacing: 0.02em;
+margin-left: 85px;
+text-align: center;
+color: #000000;
+} 
+.hblok5 {
+    width: 351px;
+height: 43px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 53px;
+margin-left: 810px;
+margin-top: 150px;
+}
+.blok6 {
+    background: url(../image/portfolio.svg);
+    width: 2023px;
+    height: 814px;
+}
+.hblok7 {
+    width: 321px;
+    height: 53px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 53px;
+color: #000000;
+margin-top: 150px;
+margin-left: 800px;
+}
+
+.blok71 {
+    display: flex;
+    margin-left: 400px;
+    padding: 5px;
+    height: 50px;
+
+}
+.polygon {
+    margin-top: 30px;
+    margin-right: 15px;
+}
+.blok7 {
+    height: 700px;
+}
+.blok71 {
+    display: flex;
+    flex-direction: column;
+}
+.pblok7 {
+margin-top: 25px;
+width: 300px;
+height: 29px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+color: #F7654A;
+}
+.pblok71 {
+    display: none;
+    width: 730px;
+height: 83px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #999999;
+
+}
+.polygon:hover ~ .pblok71 {
+    display: flex;
+}
+.pblok8 {
+    width: 256px;
+    height: 43px;
+    font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 53px;
+text-transform: uppercase;
+margin-top: 100px;
+margin-left: 850px;
+color: #FFFFFF;
+}
+.blok8 {
+    background:  #404149;
+    height: 364px;
+}
+.berko1 {
+    margin: 30px;
+}
+.berko {
+    margin-right: 60px;
+}
+.blok91 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+height: 259px;
+background: #F7F7F7;
+}
+.pblok9 {
+    width: 290px;
+height: 142px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+color: #999999;
+padding-left: 30px;
+padding-top: 20px;
+}
+.dvok {
+    margin-top: 30px;
+    margin-right: 250px;
+}
+.pblok91 {
+    width: 350px;
+height: 25px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 31px;
+letter-spacing: 0.02em;
+margin-left: 0px;
+color: #000000;
+}
+span {
+    color: red;
+}
+.blok911 {
+    display: flex;
+    margin: 0px 350px 0px;
+}
+.hblok9 {
+width: 398px;
+height: 53px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 53px;
+text-transform: uppercase;
+color: #000000;
+margin-left: 760px;
+margin-top: 150px;
+}
+.blok912 {
+    margin: 30px;
+}
+.blok10 {
+    display: flex;
+height: 181px;
+background: #F7654A;
+margin-top: 150px;
+text-align: left;
+}
+.textblok10 {
+    width: 586px;
+height: 57px;
+font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 71px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+margin-left: 400px;
+margin-bottom: 20px;
+}
+.textpblok10 {
+width: 562px;
+height: 29px;
+font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+margin-left: 400px;
+margin-top: 0px;
+} 
+.blok11ikon {
+    display: flex;
+    flex-direction: row;
+}
+.blok11 {
+    height: 550px;
+}
+.hblok11 {
+    width: 159px;
+height: 53px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 53px;
+text-transform: uppercase;
+color: #000000;
+margin-top: 100px;
+margin-left: 880px;
+}
+.blok112 {
+    width: 255px;
+    height: 191px;
+}
+.h1blok11 {
+    width: 255px;
+height: 29px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+
+/* gray */
+
+color: #999999;
+}
+.h2blok11 {
+    width: 255px;
+height: 72px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: #000000;
+}
+.h2message {
+    width: 255px;
+height: 36px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: #F7654A;
+}
+.h1message {
+width: 255px;
+height: 29px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: #999999;
+}
+.blok11ikon {
+    margin-top: 40px;
+    margin-left: 380px;
+}
+.blok112 {
+    margin: 20px;
+}
+.blok12 {
+    background: #404149;
+    height: 82px;
+    display: flex;
+}
+.p1blok12 {
+width: 251px;
+height: 22px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #FFFFFF;
+margin-left: 400px;
+margin-top: 32px;
+}
+.p2blok12 {
+    width: 221px;
+height: 22px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #FFFFFF;
+margin-left: 650px;
+margin-top: 32px;
+}
+
+    
