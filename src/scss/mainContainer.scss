@@ -11,7 +11,6 @@
      flex-direction: column;
      background: linear-gradient(0deg, rgba(64, 65, 73, 0.3), rgba(64, 65, 73, 0.3)), url(../image/brige.svg);
      height: 740px;
-     background-size: 100%;
      text-align: center;
      
  }
@@ -114,9 +113,9 @@ padding-right: 300px;
 }
 .blok4 {
 display: flex;
-width: 2023px;
 height: 181px;
 background: #F7654A;
+background-size: 100%;
 margin-top: 300px;
 text-align: left;
 
@@ -482,5 +481,67 @@ color: #FFFFFF;
 margin-left: 650px;
 margin-top: 32px;
 }
+
+
+
+
+
+@media (min-width:1024px) {
+    .blok4 {
+        width: 100%;
+    }
+    .top {
+        padding-right: 450px;
+     }
+     .blok1 {
+        background-size: 100%;
+     }
+     .texth1 {
+        padding-left: 100px;
+     }
+     .blok2 {
+        left: 505px;
+     }
+     .blok3 {
+        margin-left: 505px;
+     }
+    h2 {
+        padding-left: 70px;
+    }
+    .blok6 {
+        width: 100%;
+        margin-top: 100px;
+    }
+    .textblok4 {
+        margin-left: 500px;
+    }
+    .textpblok4 {
+        margin-left: 500px;
+    }
+    .blok5 {
+        margin-left: 70px;
+    }
+    .blok7 {
+        margin-left: 90px;
+    }
+    .blok8 {
+        padding-left: 100px;
+        
+    }
+    .blok9 {
+        margin-left: 100px;
+    }
+    .blok10 {
+        padding-left: 90px;
+    }
+    .blok11 {
+        margin-left: 100px;
+    }
+    .blok12 {
+        padding-left: 110px;
+    }
+}
+
+
 
     
