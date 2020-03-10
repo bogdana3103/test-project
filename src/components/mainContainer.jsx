@@ -1,4 +1,3 @@
-// eslint-disable-next-line
 import React from 'react';
 
 //style
@@ -37,10 +36,10 @@ class MainContainer extends React.Component {
              <img className="logo" src={logo} alt={logo}/>
              <img className="menu" src={menu} alt={menu}/>
         </div>
-            
+            <div className="blok1t">
             <h1 className="texth1">РЕАЛИЗУЕМ КРУПНЕЙШИЕ ПРОЕКТИ В РОССИИ</h1>
             <p className="textp">стадіони, газопроводи,мости,дамби</p>
-            
+            </div>
         </div>
         <div className="blok2">
             <img className="white" src={white} alt={white}/>
@@ -51,9 +50,11 @@ class MainContainer extends React.Component {
             <img className="item" src={item} alt={item}/>
             </div>
         </div>
+        <div className="blok3h2">
         <h2>наши самие большие проекти</h2>
+        </div>
         <div className="blok3">
-             <div className="image">
+          <div className="image">
                <img className="stadium" src={stadium} alt={stadium}/>
                <img className="strip" src={strip} alt={strip}/>
                <h3>Газпром Арена</h3>
@@ -79,8 +80,10 @@ class MainContainer extends React.Component {
         </div>
         <img className="button" src={button} alt={button}/>
         </div>
+        <div className="divblok5">
+        <h1 className="hblok5">ЧЕМ МЫ ЗАНИМАЕМСЯ?</h1>
+        </div>
         <div className="blok5">
-          <h1 className="hblok5">ЧЕМ МЫ ЗАНИМАЕМСЯ?</h1>
           <div className="blok51">
           <div className="blok5image">
           <img className="building" src={building} alt={building}/>
@@ -112,8 +115,10 @@ class MainContainer extends React.Component {
           </div>
           <div className="blok6">
           </div>
+          <div className="divblok7">
+          <h1 className="hblok7">ОТВЕТЫ НА ВОПРОСЫ</h1>
+          </div>
           <div className="blok7">
-            <h1 className="hblok7">ОТВЕТЫ НА ВОПРОСЫ</h1>
             <div className="blok711">
             <div className="blok71">
             <div>
@@ -146,7 +151,9 @@ class MainContainer extends React.Component {
           </div>
           </div>
           <div className="blok8">
-            <h1 className="pblok8">наши партнеры</h1>
+            <div className="divblok8">
+          <h1 className="pblok8">наши партнеры</h1>
+          </div>
             <div className="berko">
                <img className="berko1" src={berko} alt={berko}/>
                <img className="berko1" src={berko} alt={berko}/>
