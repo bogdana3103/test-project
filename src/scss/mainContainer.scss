@@ -9,15 +9,18 @@
  .blok1 {
      display: flex;
      flex-direction: column;
-     background: linear-gradient(0deg, rgba(64, 65, 73, 0.3), rgba(64, 65, 73, 0.3)), url(../image/brige.svg);
+     background: linear-gradient(0deg, rgba(64, 65, 73, 0.3), rgba(64, 65, 73, 0.3)), url(../image/brige.svg)  no-repeat center center fixed;
      height: 740px;
-     text-align: center;
-     
- }
+}
+.blok1t {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
  .top {
      display: flex;
      justify-content: space-between;
-     padding: 30px 450px 112px;
+     padding: 20px 190px;
  }
  
  .texth1 {
@@ -26,9 +29,10 @@
      font-size: 64px;
      line-height: 95px;
      width: 740px;
-     margin-left: 595px;
      margin-bottom: 0px;
      color: white;
+     
+     
      
  }
  .textp {
@@ -38,7 +42,6 @@
      font-size: 18px;
      line-height: 27px;
      width: 740px;
-     margin-left: 595px;
      margin-top: 10px;
      color: white;
      text-transform: uppercase;
@@ -46,11 +49,7 @@
  
  }
  .blok2 {
-     position: absolute;
-     width: 1110px;
-     height: 300px;
-     left: 450px;
-     top: 590px;
+     display: none;
 
  }
  .itemoll {
@@ -62,26 +61,29 @@
 }
  .blok3 {
      display: flex;
-     max-width: 1100px;
      margin-top: 60px;
-     margin-left: 450px;
-     justify-content: space-between;
+     justify-content: center;
+}
+.blok3h2 {
+    display: flex;
+    justify-content: center;
 }
 .image{
     width: 350px;
     height: 380px;
+    
+    
 }
 h2 {
 width: 506px;
 height: 43px;
 margin-top: 300px;
-margin-left: 750px;
 font-family: Oswald;
 font-weight: 500;
 font-size: 36px;
 line-height: 53px;
-text-align: center;
 text-transform: uppercase;
+text-align: center;
 }
 h3 {
 width: 142px;
@@ -115,11 +117,10 @@ padding-right: 300px;
 display: flex;
 height: 181px;
 background: #F7654A;
-background-size: 100%;
 margin-top: 300px;
+justify-content: space-between;
 text-align: left;
-
-
+padding: 0px 200px;
 }
 .textblok4 {
 width: 537px;
@@ -130,9 +131,8 @@ font-weight: bold;
 font-size: 48px;
 line-height: 71px;
 letter-spacing: 0.02em;
-margin-bottom: 0px;
 color: #FFFFFF;
-margin-left: 440px;
+
 }
 .textpblok4 {
 width: 562px;
@@ -145,34 +145,29 @@ line-height: 36px;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 margin-top: 20px;
-margin-left: 440px;
-}
-.button {
-  margin-left: 350px;  
+
 }
 .blok5 {
     display: flex;
     flex-direction: column;
-
 }
 .blok51 {
     display: flex;
     margin-top: 60px;
-    margin-left: 400px;
-    
+    justify-content: center;
 }
 .blok52 {
     display: flex;
-    margin-left: 400px;
+    justify-content: center;
 }
 .blok5image {
 width: 350px;
 height: 250px;
 background: #F7F7F7;
-margin: 20px;
-}
-.building {
-    margin-top: 60px;
+display: flex;
+align-items: center;
+flex-direction: column;
+padding-top: 60px;
 }
 .pblok5 {
 width: 172px;
@@ -183,25 +178,26 @@ font-weight: 500;
 font-size: 21px;
 line-height: 31px;
 letter-spacing: 0.02em;
-margin-left: 85px;
-text-align: center;
 color: #000000;
 } 
+.divblok5 {
+    display: flex;
+    justify-content: center;
+}
 .hblok5 {
-    width: 351px;
+width: 351px;
 height: 43px;
 font-family: Oswald;
 font-style: normal;
 font-weight: 500;
 font-size: 36px;
 line-height: 53px;
-margin-left: 810px;
 margin-top: 150px;
 }
 .blok6 {
     background: url(../image/portfolio.svg);
-    width: 2023px;
     height: 814px;
+    margin-top: 200px;
 }
 .hblok7 {
     width: 321px;
@@ -213,22 +209,20 @@ font-size: 36px;
 line-height: 53px;
 color: #000000;
 margin-top: 150px;
-margin-left: 800px;
 }
 
 .blok71 {
     display: flex;
-    margin-left: 400px;
     padding: 5px;
     height: 50px;
 
 }
-.polygon {
-    margin-top: 30px;
-    margin-right: 15px;
-}
 .blok7 {
-    height: 700px;
+    height: 500px;
+}
+.divblok7 {
+    display: flex;
+    justify-content: center;
 }
 .blok71 {
     display: flex;
@@ -269,9 +263,8 @@ font-weight: 500;
 font-size: 36px;
 line-height: 53px;
 text-transform: uppercase;
-margin-top: 100px;
-margin-left: 850px;
 color: #FFFFFF;
+margin-top: 100px;
 }
 .blok8 {
     background:  #404149;
@@ -281,17 +274,30 @@ color: #FFFFFF;
     margin: 30px;
 }
 .berko {
-    margin-right: 60px;
+    display: flex;
+    justify-content: center;
+}
+.divblok8 {
+    display: flex;
+    justify-content: center;
+}
+.blok9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .blok91 {
     display: flex;
     flex-direction: column;
     width: 350px;
-height: 259px;
-background: #F7F7F7;
+    height: 259px;
+    background: #F7F7F7;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 30px;
 }
 .pblok9 {
-    width: 290px;
+ width: 290px;
 height: 142px;
 font-family: Open Sans;
 font-style: normal;
@@ -299,13 +305,8 @@ font-weight: normal;
 font-size: 14px;
 line-height: 21px;
 color: #999999;
-padding-left: 30px;
-padding-top: 20px;
 }
-.dvok {
-    margin-top: 30px;
-    margin-right: 250px;
-}
+
 .pblok91 {
     width: 350px;
 height: 25px;
@@ -315,7 +316,6 @@ font-weight: 500;
 font-size: 21px;
 line-height: 31px;
 letter-spacing: 0.02em;
-margin-left: 0px;
 color: #000000;
 }
 span {
@@ -323,7 +323,7 @@ span {
 }
 .blok911 {
     display: flex;
-    margin: 0px 350px 0px;
+    justify-content: center;
 }
 .hblok9 {
 width: 398px;
@@ -335,11 +335,12 @@ font-size: 36px;
 line-height: 53px;
 text-transform: uppercase;
 color: #000000;
-margin-left: 760px;
 margin-top: 150px;
 }
 .blok912 {
     margin: 30px;
+    display: flex;
+    flex-direction: column;
 }
 .blok10 {
     display: flex;
@@ -347,6 +348,8 @@ height: 181px;
 background: #F7654A;
 margin-top: 150px;
 text-align: left;
+justify-content: space-between;
+padding: 0px 100px;
 }
 .textblok10 {
     width: 586px;
@@ -358,8 +361,7 @@ font-size: 48px;
 line-height: 71px;
 letter-spacing: 0.02em;
 color: #FFFFFF;
-margin-left: 400px;
-margin-bottom: 20px;
+margin-bottom: 0px;
 }
 .textpblok10 {
 width: 562px;
@@ -371,8 +373,6 @@ font-size: 24px;
 line-height: 36px;
 letter-spacing: 0.02em;
 color: #FFFFFF;
-margin-left: 400px;
-margin-top: 0px;
 } 
 .blok11ikon {
     display: flex;
@@ -380,6 +380,9 @@ margin-top: 0px;
 }
 .blok11 {
     height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .hblok11 {
     width: 159px;
@@ -392,7 +395,6 @@ line-height: 53px;
 text-transform: uppercase;
 color: #000000;
 margin-top: 100px;
-margin-left: 880px;
 }
 .blok112 {
     width: 255px;
@@ -447,7 +449,6 @@ color: #999999;
 }
 .blok11ikon {
     margin-top: 40px;
-    margin-left: 380px;
 }
 .blok112 {
     margin: 20px;
@@ -456,29 +457,27 @@ color: #999999;
     background: #404149;
     height: 82px;
     display: flex;
+    justify-content: space-between;
+    padding: 0px 90px;
 }
 .p1blok12 {
-width: 251px;
-height: 22px;
+    width: 281px;
 font-family: Open Sans;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 22px;
 color: #FFFFFF;
-margin-left: 400px;
 margin-top: 32px;
 }
 .p2blok12 {
-    width: 221px;
-height: 22px;
+    width: 281px;
 font-family: Open Sans;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 22px;
 color: #FFFFFF;
-margin-left: 650px;
 margin-top: 32px;
 }
 
@@ -486,61 +485,7 @@ margin-top: 32px;
 
 
 
-@media (min-width:1024px) {
-    .blok4 {
-        width: 100%;
-    }
-    .top {
-        padding-right: 450px;
-     }
-     .blok1 {
-        background-size: 100%;
-     }
-     .texth1 {
-        padding-left: 100px;
-     }
-     .blok2 {
-        left: 505px;
-     }
-     .blok3 {
-        margin-left: 505px;
-     }
-    h2 {
-        padding-left: 70px;
-    }
-    .blok6 {
-        width: 100%;
-        margin-top: 100px;
-    }
-    .textblok4 {
-        margin-left: 500px;
-    }
-    .textpblok4 {
-        margin-left: 500px;
-    }
-    .blok5 {
-        margin-left: 70px;
-    }
-    .blok7 {
-        margin-left: 90px;
-    }
-    .blok8 {
-        padding-left: 100px;
-        
-    }
-    .blok9 {
-        margin-left: 100px;
-    }
-    .blok10 {
-        padding-left: 90px;
-    }
-    .blok11 {
-        margin-left: 100px;
-    }
-    .blok12 {
-        padding-left: 110px;
-    }
-}
+
 
 
 
