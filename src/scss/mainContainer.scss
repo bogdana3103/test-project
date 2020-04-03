@@ -20,7 +20,7 @@
  .top {
      display: flex;
      justify-content: space-between;
-     padding: 20px 190px;
+     padding: 20px 270px;
  }
  
  .texth1 {
@@ -31,10 +31,7 @@
      width: 740px;
      margin-bottom: 0px;
      color: white;
-     
-     
-     
- }
+     }
  .textp {
      font-family: Oswald;
      font-style: normal;
@@ -49,19 +46,16 @@
  
  }
  .blok2 {
-     display: none;
-
- }
- .itemoll {
-    position: absolute;
+     display: flex;
     width: 900px;
-    height: 300px;
-    top: 30px;
-    left: 100px;
+    height: 250px;
+    background-color:#F7F7F7;
+    margin: -130px auto 0px;
+    justify-content: center;
+    align-items: center;
 }
  .blok3 {
      display: flex;
-     margin-top: 60px;
      justify-content: center;
 }
 .blok3h2 {
@@ -71,13 +65,11 @@
 .image{
     width: 350px;
     height: 380px;
-    
-    
 }
 h2 {
 width: 506px;
 height: 43px;
-margin-top: 300px;
+margin-top: 100px;
 font-family: Oswald;
 font-weight: 500;
 font-size: 36px;
@@ -210,13 +202,30 @@ line-height: 53px;
 color: #000000;
 margin-top: 150px;
 }
-
-.blok71 {
+.blok7111 {
     display: flex;
-    padding: 5px;
-    height: 50px;
-
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 300px;
 }
+.pblok71 {
+    height: 0px;
+    width: 700px;
+    overflow: hidden;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
+    transition: height 1s ease-in-out;
+}
+.polygon {
+    display: flex;
+}
+.imgpol {
+    padding: 5px;
+} 
 .blok7 {
     height: 500px;
 }
@@ -229,9 +238,8 @@ margin-top: 150px;
     flex-direction: column;
 }
 .pblok7 {
-margin-top: 25px;
-width: 300px;
-height: 29px;
+width: 700px;
+height: 35px;
 font-family: Oswald;
 font-style: normal;
 font-weight: 500;
@@ -239,20 +247,12 @@ font-size: 24px;
 line-height: 36px;
 color: #F7654A;
 }
-.pblok71 {
-    display: none;
-    width: 730px;
-height: 83px;
-font-family: Open Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 22px;
-color: #999999;
-
+.polygon:hover + .pblok71 {
+    display: block;
+    height: 90px;
 }
-.polygon:hover ~ .pblok71 {
-    display: flex;
+.imgpol:hover {
+    transform: rotate(90deg);
 }
 .pblok8 {
     width: 256px;
@@ -343,13 +343,14 @@ margin-top: 150px;
     flex-direction: column;
 }
 .blok10 {
+    width: 100%;
     display: flex;
 height: 181px;
 background: #F7654A;
 margin-top: 150px;
 text-align: left;
-justify-content: space-between;
-padding: 0px 100px;
+justify-content: space-around;
+
 }
 .textblok10 {
     width: 586px;
@@ -454,11 +455,11 @@ color: #999999;
     margin: 20px;
 }
 .blok12 {
+    width:100%;
     background: #404149;
     height: 82px;
     display: flex;
-    justify-content: space-between;
-    padding: 0px 90px;
+    justify-content: space-around;
 }
 .p1blok12 {
     width: 281px;
@@ -480,6 +481,8 @@ line-height: 22px;
 color: #FFFFFF;
 margin-top: 32px;
 }
+
+
 
 
 
